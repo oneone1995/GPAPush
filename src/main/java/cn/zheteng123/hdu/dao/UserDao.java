@@ -23,14 +23,13 @@ public class UserDao {
         List<User> userList = new ArrayList<User>();
         try {
             Connection conn = JdbcUtil.getConnection();
-            PreparedStatement stmt = conn.prepareStatement("SELECT id, username, password, num_of_score, tel, subject_id FROM user");
+            PreparedStatement stmt = conn.prepareStatement("SELECT id, username, password, tel, subject_id FROM user");
             ResultSet result = stmt.executeQuery();
             while (result.next()) {
                 User user = new User();
                 user.setId(result.getInt("id"));
                 user.setUsername(result.getString("username"));
                 user.setPassword(result.getString("password"));
-                user.setNumOfScore(result.getInt("num_of_score"));
                 user.setTel(result.getString("tel"));
                 user.setSubjectId(result.getString("subject_id"));
                 userList.add(user);
