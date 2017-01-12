@@ -1,0 +1,8 @@
+#阿里大于appKey
+app_key=
+#阿里大于安全码
+app_secret=
+#数据库连接信息
+jdbc_url=
+jdbc_username=
+jdbc_pwd=
