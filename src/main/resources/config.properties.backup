@@ -6,3 +6,6 @@ app_secret=
 jdbc_url=
 jdbc_username=
 jdbc_pwd=
+
+# 免费字符识别接口 OcrKing Key
+ocr_king_key=f6f03d35af006aaba53O5CpASSlALLwES2TZBiAfVYMU6KwLUxbW8SQdtJtsnNwmnncsNd40J2Ccis
