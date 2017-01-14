@@ -33,7 +33,7 @@ public class SMSUtil {
 
         req.setSmsType("normal");
         req.setSmsFreeSignName("HDU成绩推送");
-        req.setSmsParamString("{\"subject\":\""+ name +"\",\"score\":\""+ score +"\"}");
+        req.setSmsParamString("{\"subject\":\""+ name.substring(0, 14) +"\",\"score\":\""+ score +"\"}");
         //请填写需要接收的手机号码
         req.setRecNum(tel);
         //短信模板id
