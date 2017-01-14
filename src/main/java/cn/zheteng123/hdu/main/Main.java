@@ -7,11 +7,6 @@ import cn.zheteng123.hdu.pojo.Score;
 import cn.zheteng123.hdu.pojo.User;
 import cn.zheteng123.hdu.util.MyStringUtil;
 import cn.zheteng123.hdu.util.SMSUtil;
-import com.taobao.api.ApiException;
-import com.taobao.api.DefaultTaobaoClient;
-import com.taobao.api.TaobaoClient;
-import com.taobao.api.request.AlibabaAliqinFcSmsNumSendRequest;
-import com.taobao.api.response.AlibabaAliqinFcSmsNumSendResponse;
 
 import java.io.IOException;
 import java.util.List;
